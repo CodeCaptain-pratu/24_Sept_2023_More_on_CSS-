@@ -1,0 +1,2 @@
+QUESTION:Create a div centered with an image and paragraph 
+similar to the image mentioned below.
