@@ -1,0 +1,3 @@
+QUESTION:Create a navigation bar similar to the below-mentioned image. The navigation bar must contain 5
+navigation links that are properly placed within the navigation bar using the CSS box model. The navigation
+items must change their text color on hover.
