@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;
+    height:100%;
+    background-color: #d5d5d5;
+}
+#centerImage{
+    /* border:2px solid red; */
+    width:500px;
+    height:500px;
+    margin:100px auto;
+}
+#centerImage img{
+    width:100%;
+    height:100%;
+    border:4px solid #111;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 50%;
+}
