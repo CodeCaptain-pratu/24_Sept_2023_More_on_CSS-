@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#centerDivWrapper{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+#centerDiv{
+    width:500px;
+    height:450px;
+    background-color:rgba(47, 255, 158, 0.523);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin-top: 50px;
+}
+#centerDiv:hover{
+    opacity:0.6;
+    transition: 0.3s;
+}
+#centerDiv p{
+    font-size: 1.5rem;
+}
+#imageContainer{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#imageContainer img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
